@@ -18,11 +18,13 @@ public class Main {
                    
                 }
             }
+            System.out.println("");
             result[i]=product;
-            System.out.print(result[i]);
             
         }
-        int max = Arrays.stream(result).max().getAsInt();
-        System.out.print(max);
+    for(int res : result)
+    {
+        System.out.print(res+" ");
+    }
     }
 }
